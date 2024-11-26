@@ -5,16 +5,16 @@ body {
   background-color: #f4f4f9;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Garante que o conteúdo ocupe toda a altura da tela */
+  min-height: 100vh; 
 }
 
 header {
-  background-color: #005F5F; /* Cor igual ao rodapé */
+  background-color: #005F5F; 
   color: white;
-  padding: 0.5rem 2rem; /* Padding reduzido */
+  padding: 0.5rem 2rem; 
   text-align: center;
-  flex-shrink: 0; /* Impede que o cabeçalho encolha */
-}
+  flex-shrink: 0; 
+  
 
 .header-container {
   display: flex;
@@ -68,13 +68,13 @@ nav ul li a:hover {
 
 main {
   padding: 20px;
-  flex-grow: 1; /* Permite que o conteúdo principal ocupe o restante da tela */
-  overflow: auto; /* Permite rolar o conteúdo se necessário */
+  flex-grow: 1; 
+  overflow: auto; 
 }
 
 form {
-  max-width: 900px; /* Limita a largura do formulário */
-  margin: 0 auto; /* Centraliza o formulário */
+  max-width: 900px; 
+  margin: 0 auto; 
 }
 
 h2 {
@@ -110,7 +110,7 @@ form button:hover {
   background-color: #004747;
 }
 
-/* Estilos para o rodapé */
+
 footer.footer {
   text-align: center;
   padding: 20px 0;
